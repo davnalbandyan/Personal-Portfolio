@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Personal Portfolio</title>
     <link rel="stylesheet" href="CSS/style.css">
+    <script src="https://kit.fontawesome.com/5ba3ec2870.js" crossorigin="anonymous"></script>
 </head>
 
 <body>
@@ -38,30 +39,32 @@
                     <img src="images/david-about.mejpg">
                 </div>
                 <div class="about-col-2">
-                    <h1 class="subtitle">About me</h1>
+                    <h1 class="subtitle">about me</h1>
                     <p>Hi, My name is David Nalbandyan, I'm from Armenia. I was born on February 1. From a young age, I
                         was interested in it. Last year, I started learning web development. I learned HTML and CSS
                         In 2023, I learned JavaScript; after that, I learned TypeScript; now I am learning React JS.
                         Thanks for read this and knowing about me</p>
                         <div class="tab-titles">
-                            <p class="tab-links active">Skills</p>
+                            <p class="tab-links active-link">Skills</p>
                             <p class="tab-links">Experience</p>
                             <p class="tab-links">Enducation</p>
                         </div>
-                        <div class="tab-contents active-tab">
+
+
+                        <div class="tab-contents active-tab" id="skilss">
                             <ul>
                                 <li><span>Web Development</span><br>Web App Development</li>
                                 <li><span>C&I</span><br>Instrumentation and control engineering</li>
                             </ul>
                         </div>
-                        <div class="tab-contents">
+                        <div class="tab-contents" >
                             <ul>
                                 <li><span>HTML/CSS/JS</span><br>
                                     I have more than 20 repositories in GitHub</li>
-                                <li><span>GitHub</span><br><a href="https://github.com/davnalbandyan">My GitHub</a></li>
+                                <li><span>GitHub</span><br><a href="https://github.com/davnalbandyan" id="gitLink">My GitHub</a></li>
                             </ul>
                         </div>
-                        <div class="tab-contents">
+                        <div class="tab-contents" >
                             <ul>
                                 <li><span>2012-2017</span><br>National Polytechnic University of Armenia</li>
                                 <li><span>Specialist</span><br>Economics</li>
@@ -74,7 +77,52 @@
     </div>
     <!--about End-->
 
-    <script src="js/main.js"></script>
+    <!--services start-->
+    <div id="services">
+        <div class="container">
+            <h1 class="sub-title">My services</h1>
+            <div class="services-list">
+                <div>
+                    <i class="fa-solid fa-code"></i>
+                    <h2>Web Development</h2>
+                    <p>Doing my best to get the more experience and be the cool developer</p>
+                    <a href="#">Learn More</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-crop"></i>
+                    <h2>C&I</h2>
+                    <p>All devices which measure the flow,temperature,air,density is my favorite ones.
+                        I am working at Tegout mining,The Teghout is the most developed plant in the word
+                        All devices which measure the flow,temperature,air,density is my favorite ones.
+                        I am working at Tegout mining,The Teghout is the most developed plant in the word
+                        </p>
+                    <a href="#">Learn More</a>
+                </div>
+
+            </div>
+        </div>
+    </div>
+     <!--services end-->
+
+     <!--portfolio start-->
+     <div id="porfolio">
+        <div class="container">
+            <h1 class="sub-title">My Work</h1>
+            <div class="work">
+                <img src="images/work-1.png">
+            </div>
+            <div class="work">
+                <img src="images/work-2.png">
+            </div>
+            <div class="work">
+                <img src="images/work-3.png">
+            </div>
+        </div>
+     </div>
+     <!--portfolio end-->
+
+
+    <script src="JS/main.js"></script>
 </body>
 
 </html>
